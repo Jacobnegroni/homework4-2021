@@ -24,6 +24,7 @@ caption{
 
 /*END STARTER CODE*/
 body{
+  color: black;
   background-image: url("../images/pigeon-background.JPEG");
   font-size: 16px;
   background-color: #DDDDDD;
@@ -49,7 +50,7 @@ p{
 }
 
 a{
-  color: #B92751;
+  color: #B21F50;
   font-size: 16px;
   text-decoration-style: wavy;
 }
@@ -63,7 +64,7 @@ a{
 /*Add selector and rule here*/
 
 th {
-  border:2px solid black;
+  
 }
 
 td{
@@ -79,7 +80,7 @@ td{
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
-  background-color: #7e0825;
+  background-color: #B21F50;
   margin: auto;
 
 }
@@ -95,8 +96,6 @@ table{
   width: 100%;
   border: 5px solid #000000;
   border-radius: 50px;
-  padding: 20px;
-  height: 150px;
 }
 
 tr:nth-child(even){
@@ -116,17 +115,17 @@ thead tr:first-child th:first-child{
   border-top-left-radius: 50px;
 }
 
-thead tr:first-child th:last-child{
-    border-top-right-radius: 50px;
-
-}
-
-thead tr:last-child th:first-child{
-  border-top-left-radius: 50px;
-}
-
 thead tr:last-child th:last-child{
     border-top-right-radius: 50px;
+
+}
+
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius: 50px;
+}
+
+tbody tr:last-child td:last-child{
+    border-bottom-right-radius: 50px;
 
 }
 
