@@ -107,7 +107,7 @@ tr:nth-child(odd){
 }
 
 tr:hover{
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(126, 8, 37, 0.25);
 }
 
 /* I gave you the selector, but not the property-value pair. 
